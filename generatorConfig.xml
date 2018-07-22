@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="erircsMbgConfig">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/erircs"
+    	 driverClass="com.mysql.jdbc.Driver" 
+    	 password="Maer0918" 
+    	 userId="root" />
+
+    <javaModelGenerator targetPackage="com.erircs.pojos" targetProject="ERIRCS"/>
+    
+    <sqlMapGenerator targetPackage="com.erircs.dao" targetProject="ERIRCS" />
+    
+    <javaClientGenerator targetPackage="com.erircs.dao" targetProject="ERIRCS" type="XMLMAPPER" />
+    
+    <table schema="erircs" tableName="class_document"> </table>
+    <table schema="erircs" tableName="class_model"> </table>
+    <table schema="erircs" tableName="classroom"> </table>
+    <table schema="erircs" tableName="report_answer"> </table>
+    <table schema="erircs" tableName="report_model"> </table>
+    <table schema="erircs" tableName="report_question"> </table>
+    <table schema="erircs" tableName="report_submit"> </table>
+    <table schema="erircs" tableName="student"> </table>
+    <table schema="erircs" tableName="student_class"> </table>
+    <table schema="erircs" tableName="student_mark"> </table>
+    <table schema="erircs" tableName="student_submit"> </table>
+    <table schema="erircs" tableName="submit_answer"> </table>
+    <table schema="erircs" tableName="teacher"> </table>
+    <table schema="erircs" tableName="teacher_mark"> </table>
+
+  </context>
+</generatorConfiguration>
