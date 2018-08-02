@@ -15,5 +15,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MyBatis"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySQL5.1.42-Connector"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUnit4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/poi-3.17"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hamcrest-core-1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring-5.0.5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
